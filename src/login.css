@@ -1,0 +1,16 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 90vh; 
+  }
+.form{
+    display:grid;
+    grid-template-columns: 1fr;
+    width:400px;
+    margin:auto;
+    row-gap: 10px;
+}
+.item{
+    padding: 10px; 
+}
