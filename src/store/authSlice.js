@@ -3,7 +3,7 @@ import {createSlice} from "@reduxjs/toolkit";
 const authSlice = createSlice({
    name:"auth",
    initialState:{
-    jwtToken:"null"
+    jwtToken:null
    },
    reducers:{
     setToken:(state,action)=>{

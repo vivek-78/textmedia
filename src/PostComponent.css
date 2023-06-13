@@ -1,3 +1,26 @@
-.post{
-    border: solid;
-}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    padding-right: 5px;
+  }
+  
+  .card-header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  .user-name{
+    margin: 0px;
+    padding: 0px;
+  }
+  .userId{
+    margin: 5px 0px 5px 0px;
+    padding: 0px;
+    color: rgb(89, 86, 86);
+  }
+  

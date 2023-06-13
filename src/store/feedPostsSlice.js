@@ -11,8 +11,12 @@ const feedPostsSlice = createSlice({
      },
      removeFeedPosts:(state)=>{
       state.posts = [];
+     },
+     addPost : (state,action)=>{
+      const newPosts = [action.payload,...state.posts];
+      state.posts = newPosts;
      }
    }
 });
-export const {setFeedPosts,removeFeedPosts} = feedPostsSlice.actions;
+export const {setFeedPosts,removeFeedPosts,addPost} = feedPostsSlice.actions;
 export default feedPostsSlice.reducer;

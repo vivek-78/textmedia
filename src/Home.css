@@ -1,6 +1,6 @@
 .homepage{
-    display: flex;
-    justify-content: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .post-container{
     display:grid;
@@ -8,4 +8,7 @@
     width:400px;
     margin:auto;
     row-gap: 5px;
+}
+.create-post{
+    align-self: start;
 }
